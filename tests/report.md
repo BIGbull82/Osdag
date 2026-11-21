@@ -27,9 +27,11 @@ Not implemented: 13.3.4 (other sections; it reuses the 13.3.3 equation with a di
 | Tension yielding | **Renumbered only** (6.2 → 13.2) | T_dg = A_g f_y / γm0, unchanged. |
 | Plate rupture | **Renumbered only** (6.3.1 → 13.3.1) | T_dn = 0.9 A_n f_u / γm1; net area expression unchanged, including the +2 mm allowance for directly punched holes. |
 | Threaded rods | Renumbered (6.3.2 → 13.3.2) | T_dn = 0.9 A_n f_u / γm1. Not implemented in the Osdag 2007 module, so added here. |
-| Single angles, shear lag | Renumbered (6.3.3 → 13.3.3); **upper limit on β appears to include a 0.9 factor** | Draft: β ≤ 0.9 f_u γm0 / (f_y γm1), β ≥ 0.7. My recollection is that 2007 has no 0.9 in this limit. **Verify against the 2007 PDF before submitting.** Not in the Osdag 2007 module, so added here. |
+| Single angles, shear lag | Renumbered (6.3.3 → 13.3.3); **no technical change relative to the amended 2007** | Draft: β ≤ 0.9 f_u γm0 / (f_y γm1), β ≥ 0.7. The original IS 800:2007 (Dec 2007) had no 0.9 in this limit; Amendment No. 1 (Jan 2012) to IS 800:2007 substituted "0.9 fu γm0/fy γm1" for "fu γm0/fy γm1" in cl. 6.3.3, so the draft carries the amendment forward. Not in the Osdag 2007 module, so added here. |
 | Block shear (bolted) | **Renumbered only** (6.4.1 → 13.4.1) | Both failure-mode equations unchanged. |
 | Welded block shear | Renumbered (13.4.2) | Descriptive only; no equation. |
+
+**Basis of comparison.** "2007" in this comparison means IS 800:2007 as amended by Amendment No. 1 (January 2012). For the provisions implemented, the draft's technical content is the same as the amended 2007; the visible changes are the renumbering (and the consolidation of the 2012 amendment into the main text).
 
 Chapter numbering moved overall (Tension Members: Section 6 → Chapter 13; Limit State Design: Section 5 → Chapter 12), so the function names carry the new clause numbers.
 
